@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    border-top: 6px solid #d6277e;
+    background-size: cover;
+}
+.logo img{
+    width: 250px;
+    height: 175px;
+    position: absolute;
+    left: 0%;
+    top: 6px;
+}
+nav{
+    background: url('bg.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 70px;
+    flex-wrap: wrap;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    font-family: sans-serif;
+}
+.menu a:hover{
+    color: rgb(227, 91, 91);
+    text-decoration: underline;
+}
+.menu a:first-child{
+   color: rgb(227, 91, 91); 
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%
+  }
+
+
+#first{
+    width: 100%;
+    padding: 50px;
+}
+.f-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.f-left{
+    flex-basis: 70%;
+}
+.f-right{
+    flex-basis: 30%;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.f-left .card-box{
+    flex-basis: 40%;
+    display: flex;
+}
+.f-left .card-box div{
+    padding: 15px;
+}
+.f-left .card-box img{
+    width: 50%;;
+}
+.f-right .card-box img{
+    width: 100%;;
+}
+.card-box span{
+   color: rgb(231, 57, 100);
+   cursor: pointer;
+}
+.part2{
+    margin-top: 4em;
+}
+.f-left h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.f-right h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.f-left span{
+    color: rgb(231, 57, 100);
+}
+.f-right span{
+    color: rgb(231, 57, 100);
+}
+#second{
+    width: 100%;
+    padding: 50px;
+}
+.card{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    flex-basis: 20%;
+}
+.box div{
+    margin-top: 10px;
+    border-top: 1px solid #802d55;
+}
+.box div p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.box div button{
+    background: #e84393;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 15px;
+}
+.box div button:hover{
+    background: #c11d6f;
+    cursor: pointer;
+}
+footer{
+     width: 100%;
+    color: white;
+    background-size: 50% 50%;
+    padding: 50px;
+    background: linear-gradient(to right, rgb(240, 75, 168), rgb(236, 126, 126));
+}
+footer div{
+    padding-top: 30px;
+}
+footer i{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+footer i:hover{
+    background: #edb8d2;
+}
+#navigation a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+    color: rgb(247, 243, 243);
+    display: block;
+}
+#navigation a:hover{
+    color: #840444;
+}
+.card2{
+    align-items: flex-start;
+}
+@media screen and (max-width: 770px){
+	nav{
+		padding:0 20px; 
+	}
+
+	.logo{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.menu a{
+		padding: 10px;
+	}
+	.swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .f-left{
+	flex-basis: 100%;
+}
+.f-right{
+	flex-basis: 100%;
+	margin-top: 15px;
+}
+.f-left .card-box{
+	flex-basis: 100%;
+	display: flex;
+	margin:15px 0;
+}
+#second{
+	width: 100%;
+	padding:0 50px;
+}
+.box{
+	flex-basis: 100%;
+	margin:15px 0;
+}
+}
+
+
+
+
+
